@@ -1,0 +1,76 @@
+body{
+    background-image: url("/Marvel/imagens/Marvel1.jpg");
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 25vh 50vh 25vh;
+}
+header{
+   background: linear-gradient(to bottom, gray, transparent);
+   height: 100px;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+}
+#leftheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.cab{
+    margin-top: 0;
+    text-decoration: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.cab:hover{
+    border-bottom: 10px black;
+}
+main{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botao1{
+    font-size: 10vh;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+#botao1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#oculto{
+    display: none;
+}
+
+footer{
+   background: linear-gradient(to top, gray, transparent);
+   height: 100px;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
